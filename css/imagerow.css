@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex-direction: row;
+  flex: 1 1 33.33;
+ 
+}
+
+img {
+  width: 500px;
+  height: 500px;
+
+}
