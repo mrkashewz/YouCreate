@@ -33,20 +33,8 @@
     display: none;
     min-width: 100px;
     list-style: none;
-	padding: 20;
+	padding: 20px;
 	margin: 20px 0 0;
-}
-
-.dropit .dropit-submenu:first-child {
-    position: absolute;
-    top: 100%;
-    right: 0; /* dropdown left or right */
-    z-index: 1000;
-    display: none;
-    min-width: 100px;
-    list-style: none;
-  padding: 200px;
-  margin: 20px 0 0;
 }
 
 
