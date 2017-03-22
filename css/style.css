@@ -791,3 +791,8 @@ margin-right: auto;
    line-height: 18px;
    margin:5px 0 0;
  }
+
+ /* ADD */
+#left-nav > div.settings > ul {
+  float: right;
+}
