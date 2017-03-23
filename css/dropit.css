@@ -39,6 +39,7 @@
 
 
 
+
 .dropit .dropit-open .dropit-submenu {
 display: block;
 background: #FFFFFF;
@@ -63,6 +64,7 @@ border-radius: 4px;
   display: block;
   margin-bottom: 20px;
   margin-left: -12px;
+  line-height: 75%
 
  }
 
@@ -73,6 +75,7 @@ border-radius: 4px;
  }
  .dropit .dropit-open .dropit-submenu li:first-child {
   margin-top: 10px;
+
  }
  .dropit .dropit-open .dropit-submenu li a {
   color:#34495E;
@@ -80,8 +83,18 @@ border-radius: 4px;
   font-family: "Nunito", Helvetica, Arial, sans-serif;
   font-weight:100;
   font-size: 12px;
-  line-height: 50%;
+  line-height: 90%;
+
+
  }
+#left-nav > div.settings > ul > li > ul > li > a  i {
+text-align: center;
+padding-right: 20px;
+align-content: left;
+left: 20px;
+}
+
+
 
 body > main > section > div:nth-child(1) > div > ul > li > ul > li:nth-child(1) > a > i {
     padding-right: 10px;
