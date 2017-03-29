@@ -446,7 +446,6 @@ footer .logo {
     padding: 2em 0;
     text-align: left;
   }
-<<<<<<< HEAD
 
   footer .logo {
     margin: 0 auto;
@@ -461,22 +460,6 @@ footer .logo {
   }
 }
 
-=======
-
-  footer .logo {
-    margin: 0 auto;
-    padding: 0 0 2em 5em;
-    position: absolute;
-  }
-}
-
-@media (min-width: 992px) {
-  footer .right-footer-block {
-    display: hidden;
-  }
-}
-
->>>>>>> 5f31cc95727a0ba9fb865fe7c2161b764bc6714a
 
 @media (max-width: 992px) {
   footer .right-footer-block {
@@ -494,57 +477,6 @@ footer .logo {
 /* DASHBOARD */
 .dashboard {
   background: #F7F7F7;
-<<<<<<< HEAD
-}
-
-body > main > section > div:nth-child(1) > div > p {
-  padding-left: 50px;
- float: left;
- margin: auto;
- position: relative;
-}
-
-.left-nav {
-  height: 100%;
-  position: absolute;
-  -webkit-transform: translate(-280px,0); /** Chrome & Safari **/
-  -moz-transform: translate(-280px,0); /** Firefox **/
-  -o-transform: translate(-280px,0); /** Opera **/
-  transform: translate(-280px,0);
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-  width: 280px;
-}
-.left-nav.open {
-  display: block;
-  -webkit-transform: translate(0,0); /** Chrome & Safari **/
-  -moz-transform: translate(0,0); /** Firefox **/
-  -o-transform: translate(0,0); /** Opera **/
-  transform: translate(0,0);
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-  width: 280px;
-  z-index: 100;
-}
-.hamburger {
-  background: #0C5580;
-  border: 1px white solid;
-  border-radius: 4px;
-  color: #FFF;
-  font-size: 22px;
-  left: 5px;
-  padding: 10px 15px;
-  position: absolute;
-  text-decoration: none;
-  top: 20px;
-  z-index: 1000;
-}
-
-=======
 }
 .left-nav {
   height: 100%;
@@ -586,7 +518,6 @@ body > main > section > div:nth-child(1) > div > p {
   z-index: 1000;
 }
 
->>>>>>> 5f31cc95727a0ba9fb865fe7c2161b764bc6714a
 @media (min-width:992px) {
   .left-nav {
     background: #0C5580;
@@ -705,13 +636,6 @@ body > main > section > div:nth-child(1) > div > p {
   padding-top: 5px;
   width: 100%;
 }
-<<<<<<< HEAD
-
-.menu .menu--top {
-  top: -140px;
-  line-height: 150%;
-=======
->>>>>>> 5f31cc95727a0ba9fb865fe7c2161b764bc6714a
 
 .menu .menu--top {
   top: -140px;
@@ -720,18 +644,10 @@ body > main > section > div:nth-child(1) > div > p {
 .menu .dropit-open .dropit-submenu.menu--top::after {
   border-width: 8px 8px 0;
   top: 116px;
-<<<<<<< HEAD
-
-=======
->>>>>>> 5f31cc95727a0ba9fb865fe7c2161b764bc6714a
 }
 
 #left-nav.open {
   background-color: #0C5580;
-<<<<<<< HEAD
-  position: fixed;
-=======
->>>>>>> 5f31cc95727a0ba9fb865fe7c2161b764bc6714a
 }
 
 #left-nav > div.items {
@@ -741,20 +657,6 @@ body > main > section > div:nth-child(1) > div > p {
 #left-nav > div.settings {
   color: #FFF;
 }
-<<<<<<< HEAD
-    
-.dropit .dropit-open .dropit-submenu li {
-    display: block;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    text-align: left;
-    margin: 0 auto;
-    line-height: 150%;
-    padding-right: 10px;
-    justify-content: center;
-  }
-=======
->>>>>>> 5f31cc95727a0ba9fb865fe7c2161b764bc6714a
 
 /* CONTENT */
 .content {
@@ -794,80 +696,7 @@ body > main > section > div:nth-child(1) > div > p {
   overflow: hidden;
   position: relative;
 }
-<<<<<<< HEAD
 
-body > main > section > div:nth-child(2) .content-item h2 {
-  line-height: 20px;
-  padding-top: 10px;
-  text-align: center;
-}
-
-body > main > section > div:nth-child(2) .content-item p {
-  text-align: left;
-}
-
-/* uNext */
-body > main > section > div:nth-child(2) > div:nth-child(5) > div > p {
-  padding-left: 15%;
-}
-
-body > main > section > div:nth-child(2) > div:nth-child(5) > div > h2 > img {
-
-}
-
-/* Fashion Moodboard */
-body > main > section > div:nth-child(2) > div:nth-child(2) > div > p {
-  padding-left: 15%;
-}
-
-/* Testing */
-
-body > main > section > div:nth-child(2) > div:nth-child(7) > div > h2 {
- text-align: center;
-}
-
-body > main > section > div:nth-child(2) > div:nth-child(7) > div > p {
-  padding-left: 15%;
-  padding-right: 10%;
-}
-
-/*Designer */
-body > main > section > div:nth-child(2) > div:nth-child(3) > div {
-  padding-left: 15%;
-}
-
-body > main > section > div:nth-child(2) > div:nth-child(3) > div> h2 {
- text-align: center;
- padding-right: 30px;
-}
-
-body > main > section > div:nth-child(2) > div:nth-child(3) > div  p {
-  padding-right: 10%;
-  padding-bottom: 30%;
-}
-
-/* Testing (Again) */
-body > main > section > div:nth-child(2) > div:nth-child(9) > div {
- text-align: center;
-}
-
-body > main > section > div:nth-child(2) > div:nth-child(9) > div > p {
-  padding-left: 15%;
-  padding-right: 10%;
-}
-
-/* uNext */
-body > main > section > div:nth-child(2) > div:nth-child(5) > div {
-
-}
-=======
->>>>>>> 5f31cc95727a0ba9fb865fe7c2161b764bc6714a
-
-/*RS Color Scheme */
-body > main > section > div:nth-child(2) > div:nth-child(8) > div > p {
-   padding-left: 15%;
-  padding-right: 10%;
-}
 /* MEDIA QUERIES */
 
 /* Larger Mobile Devices */
@@ -884,13 +713,6 @@ body > main > section > div:nth-child(2) > div:nth-child(8) > div > p {
     margin: 0 2% 25px;
     width: 46%;
   }
-<<<<<<< HEAD
-  body > main > section > div:nth-child(2) > div:nth-child(10) > div {
-    height: : 100%;
-    width: 100%;
-  }
-=======
->>>>>>> 5f31cc95727a0ba9fb865fe7c2161b764bc6714a
 }
 /* Tablets */
 @media (min-width:768px) {
