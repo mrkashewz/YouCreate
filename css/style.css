@@ -232,6 +232,10 @@ video {
   width: 90%;
 }
 
+body > main > section.features > p {
+  vertical-align: middle;
+  text-align: center;
+}
 
 
 .feature-container {
@@ -244,6 +248,7 @@ video {
   display: flex;
   flex: 1;
   justify-content: space-around;
+  vertical-align: middle;
 }
 
 .features h2 {
@@ -257,7 +262,6 @@ video {
 
 .pricing {
   background: url('../images/background.png') top center no-repeat, linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
-  background: url('../images/background.png') top center no-repeat;
   background-size: cover;
   padding: 4em 0;
   text-align: center;
@@ -394,6 +398,13 @@ video {
     margin-left: auto;
     margin-right: auto;
   }
+
+  body > main > section.features > p {
+  vertical-align: middle;
+  text-align: center;
+  padding-left: 55px;
+}
+
 }
 .cta p {
   padding-bottom: 20px;
@@ -468,6 +479,13 @@ footer .logo {
 }
 
 /* Dashboard */
+body > main > section > div:nth-child(1) > div > ul > li > ul {
+  top:19px;
+}
+
+body > main > section > div:nth-child(1) > div > ul > li > ul > li > a {
+  margin: 0 auto;
+}
 
 .favicon {
   height: 32px;
@@ -480,7 +498,7 @@ footer .logo {
 }
 .left-nav {
   height: 100%;
-  position: absolute;
+  position: fixed;
   -webkit-transform: translate(-280px,0); /** Chrome & Safari **/
   -moz-transform: translate(-280px,0); /** Firefox **/
   -o-transform: translate(-280px,0); /** Opera **/
@@ -560,8 +578,36 @@ footer .logo {
   width: 100%;
 }
 
+.dropit .dropit-open .dropit-submenu{
+  height: 100px;
+}
+body > main > section > div:nth-child(1) > div > ul > li > ul > li a {
+  margin: auto 0;
+}
 
+.dropit .dropit-open .dropit-submenu li {
+    display: block;
+    margin-left: -12px;
+    line-height: 31px;
+    margin: 5px auto auto auto;
+}
 
+.dropit .dropit-submenu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1000;
+    display: none;
+    min-width: 100px;
+    list-style: none;
+    margin: 20px 0 0;
+    padding: -2px;
+    height: 100px;
+}
+
+.dropit .dropit-open .dropit-submenu li:first-child {
+    margin: auto;
+  }
 .left-nav .items {
   padding: 0 6%;
 }
@@ -622,7 +668,7 @@ footer .logo {
 }
 .left-nav .settings a {
   color: #FFF;
-  float: right;
+
   margin-right: 10px;
   margin-top: 8px;
   text-align: right;
@@ -638,12 +684,42 @@ footer .logo {
 }
 
 .menu .menu--top {
-  top: -140px;
+  top: -200px;
 }
 
+
+
 .menu .dropit-open .dropit-submenu.menu--top::after {
-  border-width: 8px 8px 0;
-  top: 116px;
+ content: " ";
+    position: absolute;
+    border-style: solid;
+    border-width: 0 8px 8px;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: 140px;
+    right: 8px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+ #left-nav > div.settings > ul > li > ul {
+  height: 100px;
+  top: -170px;
+}
+
+#left-nav > div.settings > ul > li {
+top: 8px;
+
+}
+
+#left-nav > div.settings > ul > li > ul > li {
+  margin: auto 0;
+  line-height: 25px;
 }
 
 #left-nav.open {
@@ -659,6 +735,10 @@ footer .logo {
 }
 
 /* CONTENT */
+
+body > main > section > p {
+  padding-left: 2em;
+}
 .content {
   float: right;
   padding: 6em 1% 1.5em;
@@ -695,6 +775,31 @@ footer .logo {
   height: 230px;
   overflow: hidden;
   position: relative;
+}
+
+
+
+body > main > section > div > div > div  p {
+  text-align: center;
+}
+
+
+body > main > section > div:nth-child(3) > div:nth-child(3) > div > h2 {
+  padding-top: 19px;
+  text-align: center;
+}
+
+
+
+body > main > section > div:nth-child(3) > div:nth-child(7) > div > h2 {
+  padding-top: 19px;
+  text-align: center;
+}
+
+
+body > main > section > div:nth-child(3) > div:nth-child(9) > div > h2 {
+  padding-top: 19px;
+  text-align: center;
 }
 
 /* MEDIA QUERIES */
@@ -776,12 +881,19 @@ footer .logo {
   font-weight: 24px;
   text-decoration: none;
 }
+body > main > section > p {
+  position: relative;
+}
 
 .item-box p {
   color: #333;
   font-size: 14px;
   line-height: 18px;
   margin: 5px 0 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+
 }
 
 /* ADD */
